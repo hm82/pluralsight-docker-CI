@@ -33,3 +33,14 @@ jobs:
           prefix: coverage
       - store_test_results:
           path: test-results.xml
+
+ deploy:
+   dockerhub:
+    branch: master
+   working_directory: ~/pluralsight-docker-CI
+#   docker:
+#    - image: circleci/node:10.16.3
+   steps:
+     - run:
+         name: deploy-2-dockerhub
+         command: $DOCKER_HUB_TRIGGER

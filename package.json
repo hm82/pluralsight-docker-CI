@@ -4,10 +4,11 @@
   "version": "0.0.4",
   "description": "Demo app for Web container demonstrations",
   "main": "app.js",
-  "author": "Hasan Mujtaba <hasan.mujtaba@gmail.com>",
+  "author": "Hasan Mujtaba <hasan.mujtaba@hotmail.com>",
   "license": "May contain vulnerabilities!",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "2.0.4"
+    "pug": "2.0.4",
+    "mocha": "^7.1.2" 
   }
 }

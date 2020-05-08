@@ -1,10 +1,10 @@
 {
   "name": "container-web-test",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Demo app for Web container demonstrations",
   "main": "app.js",
-  "author": "Nigel Poulton <nigelpoulton@hotmail.com>",
+  "author": "Hasan Mujtaba <hasan.mujtaba@gmail.com>",
   "license": "May contain vulnerabilities!",
   "dependencies": {
     "express": "^4.17.1",
